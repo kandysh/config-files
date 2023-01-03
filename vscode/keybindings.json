@@ -1,0 +1,32 @@
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "ctrl+`",
+		"command": "workbench.action.terminal.focus"
+	},
+	{
+		"key": "ctrl+`",
+		"command": "workbench.action.focusActiveEditorGroup",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "tab",
+		"command": "tab",
+		"when": "!editorReadonly"
+	},
+	{
+		"key": "tab",
+		"command": "-tab",
+		"when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+	},
+	{
+		"key": "shift+tab",
+		"command": "outdent",
+		"when": "!editorReadonly"
+	},
+	{
+		"key": "shift+tab",
+		"command": "-outdent",
+		"when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+	}
+]

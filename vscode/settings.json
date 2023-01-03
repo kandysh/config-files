@@ -1,0 +1,198 @@
+{
+	"editor.fontFamily": "Cascadia Code",
+	"editor.fontLigatures": "'calt','ss01','ss02', 'ss19','ss20', 'cv27",
+	// "editor.fontLigatures": true,
+	"editor.formatOnSave": true,
+	"editor.minimap.renderCharacters": false,
+	"files.autoSave": "afterDelay",
+	"explorer.confirmDragAndDrop": false,
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": [
+					"comment",
+					"emphasis",
+					"entity.name.method.js",
+					"entity.name.class.js",
+					"entity.name.tag.doctype",
+					"entity.other.attribute-name",
+					"entity.other.attribute-name.tag.jade",
+					"entity.other.attribute-name.tag.pug",
+					"keyword",
+					"keyword.control",
+					"keyword.operator.comparison",
+					"keyword.control.flow.js",
+					"keyword.control.flow.ts",
+					"keyword.control.flow.tsx",
+					"keyword.control.ruby",
+					"keyword.control.module.ruby",
+					"keyword.control.class.ruby",
+					"keyword.control.def.ruby",
+					"keyword.control.loop.js",
+					"keyword.control.loop.ts",
+					"keyword.control.import.js",
+					"keyword.control.import.ts",
+					"keyword.control.import.tsx",
+					"keyword.control.from.js",
+					"keyword.control.from.ts",
+					"keyword.control.from.tsx",
+					"keyword.operator.expression.delete",
+					"keyword.operator.new",
+					"keyword.operator.expression",
+					"keyword.operator.cast",
+					"keyword.operator.relational",
+					"keyword.operator.sizeof",
+					"keyword.operator.logical.python",
+					"italic",
+					"markup.italic",
+					"markup.quote",
+					"markup.changed",
+					"markup.italic.markdown",
+					"markup.quote.markdown",
+					"markup.deleted.diff",
+					"markup.inserted.diff",
+					"meta.delimiter.period",
+					"meta.diff.header.git",
+					"meta.diff.header.from-file",
+					"meta.diff.header.to-file",
+					"meta.tag.sgml.doctype",
+					"meta.var.expr",
+					"meta.class meta.method.declaration meta.var.expr storage.type.js",
+					"meta.decorator punctuation.decorator",
+					"meta.selector",
+					"punctuation.accessor",
+					"punctuation.definition.comment",
+					"punctuation.definition.template-expression.begin",
+					"punctuation.definition.template-expression.end",
+					"punctuation.section.embedded",
+					"quote",
+					"source.js constant.other.object.key.js string.unquoted.label.js",
+					"source.go keyword.package.go",
+					"source.go keyword.import.go",
+					"source.go keyword.function.go",
+					"source.go keyword.type.go",
+					"source.go keyword.struct.go",
+					"source.go keyword.interface.go",
+					"source.go keyword.const.go",
+					"source.go keyword.var.go",
+					"source.go keyword.map.go",
+					"source.go keyword.channel.go",
+					"source.go keyword.control.go",
+					"storage",
+					"storage.type",
+					"storage.modifier",
+					"storage.type.property.js",
+					"storage.type.property.ts",
+					"storage.type.property.tsx",
+					"tag.decorator.js entity.name.tag.js",
+					"tag.decorator.js",
+					"text.html.basic entity.other.attribute-name.html",
+					"text.html.basic entity.other.attribute-name",
+					"variable.language",
+					"variable.other.object.property"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"scope": [
+					"invalid",
+					"keyword.operator",
+					"constant.numeric.css",
+					"keyword.other.unit.px.css",
+					"constant.numeric.decimal.js",
+					"constant.numeric.json",
+					"entity.name.type.class.js"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			}
+		]
+	},
+	"editor.fontSize": 15,
+	"editor.fontWeight": "normal",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"editor.bracketPairColorization.enabled": true,
+	"workbench.colorCustomizations": {
+		"editorBracketHighlight.foreground1": "#41e9e9",
+		"editorBracketHighlight.foreground2": "#e6c974",
+		"editorBracketHighlight.foreground3": "#f99157",
+		"editorBracketHighlight.foreground4": "#8868d3",
+		"editorBracketHighlight.foreground5": "#bb80b3",
+		"editorBracketHighlight.foreground6": "#98C379"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"terminal.integrated.profiles.windows": {
+		"GitBash": {
+			"path": ["F:\\Git\\bin\\bash.exe"],
+			"args": []
+		}
+	},
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"editor.formatOnPaste": true,
+	"git.confirmSync": false,
+	"git.enableSmartCommit": true,
+	"emmet.includeLanguages": {
+		"html": "html",
+		"ejs": "html"
+	},
+	"emmet.triggerExpansionOnTab": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"explorer.confirmDelete": false,
+	"rainbowTags.allowEverywhere": true,
+	"rainbowTags.denylistTags": ["html", "head", "body", "ejs"],
+	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"terminal.integrated.fontFamily": "SpaceMono Nerd Font Mono",
+	"terminal.integrated.defaultProfile.linux": "bash",
+	"vim.vimrc.path": "F:\\vscode_config\\init.vim",
+	"vim.vimrc.enable": true,
+	"editor.lineNumbers": "relative",
+	"vim.easymotion": true,
+	"vim.incsearch": true,
+	"vim.useSystemClipboard": true,
+	"vim.useCtrlKeys": true,
+	"vim.hlsearch": true,
+	"vim.insertModeKeyBindingsNonRecursive": [
+		{
+			"before": ["j", "k"],
+			"after": ["<ESC>"]
+		}
+	],
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": ["leader", "l"],
+			"commands": ["editor.action.formatDocument"]
+		},
+		{
+			"before": ["leader", "d"],
+			"commands": ["editor.action.copyLinesDownAction"]
+		},
+		{
+			"before": ["leader", "u"],
+			"commands": ["editor.action.copyLinesUpAction"]
+		},
+		{
+			"before": ["leader", "z"],
+			"commands": [
+				"workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup"
+			]
+		}
+	],
+	"liveServer.settings.donotVerifyTags": true,
+	"workbench.colorTheme": "Tokyo Night",
+	"editor.accessibilitySupport": "off",
+	"better-comments.multilineComments": true,
+	"better-comments.highlightPlainText": true,
+	"workbench.iconTheme": "vscode-icons",
+	"gitlens.views.commitDetails.files.layout": "tree",
+	"[csharp]": {
+		"editor.defaultFormatter": "ms-dotnettools.csharp"
+	}
+}
