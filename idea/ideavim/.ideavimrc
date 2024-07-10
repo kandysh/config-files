@@ -16,7 +16,7 @@ map Q gq
 "map \r <Action>(ReformatCode)
 
 "" Map <leader>d to start debug
-"map <leader>d <Action>(Debug)
+"map \d <Action>(Debug)
 
 "" Map \b to toggle the breakpoint on the current line
 "map \b <Action>(ToggleLineBreakpoint)
@@ -33,6 +33,8 @@ map \o <Action>(OptimizeImports)
 map \a <Action>(GotoAction)
 map z <Action>(Switcher)
 map \r <Action>(RunClass)
+map gi <Action>(ReSharperGotoImplementation)
+map sf <Action>(FileStructurePopup)
 set visualbell
 
 set rnu
